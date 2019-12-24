@@ -83,7 +83,6 @@ public class KeywordService {
 	}
 
 	public WebElement locatorValue(By element) {
-
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(element));
 	}
 
